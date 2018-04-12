@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hom"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about"
+            android:title="About" />
+
+        <item
+            android:id="@+id/nav_media"
+            android:title="Media"
+            android:icon="@drawable/media"  />
+
+        <item
+            android:id="@+id/nav_magazines"
+            android:title="Magazines"
+            android:icon="@drawable/magazine"  />
+
+        <item
+            android:id="@+id/nav_services"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Services" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_supplement"
+            android:title="Supplement"
+            android:icon="@drawable/supplement" />
+
+         <item
+            android:id="@+id/nav_admission"
+            android:title="Admission"
+             android:icon="@drawable/form"  />
+
+
+    </group>
+
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

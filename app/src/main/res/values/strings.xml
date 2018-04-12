@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Gym_App2</string>
+
+    <string-array name="PaymentType">
+        <item>Cash On Delivery</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

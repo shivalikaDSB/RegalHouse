@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/psupple">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#faf883">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/t1"
+            android:text="Supplements"
+            android:textSize="13pt"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>  </LinearLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/image1"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/image2"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>   </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 1"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 2"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>   </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:2500"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:5200"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add1"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add2"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/image3"
+                    android:textColor="@android:color/black"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/image4"
+                    android:textColor="@android:color/black"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>   </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 3"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 4"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>   </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:4500"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:3000"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/></TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add3"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add4"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/image5"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/image6"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>    </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 5"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 6"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>   </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:6000"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:5500"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/>  </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add5"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add6"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/image7"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s8"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/image8"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>   </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 7"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 8"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>   </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:4700"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:3500"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/> </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add7"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add8"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" /> </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="165dp"
+                    android:src="@drawable/s9"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/image9"
+                    android:cropToPadding="true"
+                    android:scaleType="fitCenter"
+                    android:background="@drawable/borderimg2"/>  </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Product ID : 9"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@android:color/black"/>
+                  </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rate:2500"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginBottom="3dp"
+                    android:textColor="@color/colorAccent"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="add"
+                    android:id="@+id/add9"
+                    android:layout_marginBottom="30dp"
+                    android:background="@drawable/buttonradius"/>
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+
+</ScrollView>
